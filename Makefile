@@ -4,7 +4,7 @@
 
 # we assume the pic directory locates one level above,
 # change PIC_PATH if this is not the case
-PIC_PATH = $(abspath $(CURDIR)/../pic)
+PIC_PATH = $(abspath $(CURDIR)/pic)
 
 INCLUDE = -I$(PIC_PATH)
 LIBRARIES = -L$(PIC_PATH) -framework OpenGL -framework GLUT -lpicio $(PIC_PATH)/libjpeg.a
